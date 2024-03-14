@@ -8,7 +8,7 @@ int main(void) {
 	int result = 0; //소수의 합 저장할 변수선언
 	int k = 0; 
 	start = clock(); //수행 시간측정 시작
-	for (int i = 1; i <= 100; i++) {
+	for (int i = 0; i <= 100; i++) {
 		for (k = 2; k < i; k++) {
 			if (i % k == 0) break;
 		}
